@@ -1,0 +1,24 @@
+{
+    "FileVersion": 3,
+    "Version": 1,
+    "VersionName": "1.0.0",
+    "FriendlyName": "NexusCap",
+    "Description": "Low-latency open-source IMU motion capture Live Link source for UE5. Receives quaternion data from ESP32 sensor nodes over UDP and streams it to the Live Link subsystem for real-time skeletal animation and Sequencer recording.",
+    "Category": "Animation",
+    "CreatedBy": "NexusCap Contributors",
+    "CreatedByURL": "https://github.com/ohmcodes/NexusCap",
+    "DocsURL": "https://github.com/ohmcodes/NexusCap/blob/main/README.md",
+    "MarketplaceURL": "",
+    "SupportURL": "",
+    "CanContainContent": false,
+    "IsBetaVersion": true,
+    "IsExperimentalVersion": false,
+    "Installed": false,
+    "Modules": [
+        {
+            "Name": "NexusCap",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+        }
+    ]
+}
